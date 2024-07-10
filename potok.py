@@ -57,5 +57,5 @@ def make_condition(det_ranges: str, num_group: str = None):
     # det_from, det_to
 
 a = make_condition('2- 4,   12-18, 34-42')
-
+""" Test commit num 2 """
 b = make_condition('3-5, 9-14', '2')
